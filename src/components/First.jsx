@@ -12,6 +12,13 @@ const First = () => {
       >
         About
       </button>
+      <button
+        onClick={() => {
+          navigate("/counter");
+        }}
+      >
+        Counter
+      </button>
     </div>
   );
 };

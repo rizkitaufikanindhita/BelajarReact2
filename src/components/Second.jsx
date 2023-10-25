@@ -12,6 +12,13 @@ const Second = () => {
       >
         Home
       </button>
+      <button
+        onClick={() => {
+          navigate("/counter");
+        }}
+      >
+        Counter
+      </button>
     </div>
   );
 };
